@@ -18,3 +18,8 @@ print(greeting.lower())
 print("Hello World!", sep ="", end ="-" )
 # print('test')
 print('qqq', "wfsdkf", "fsdfsdda")
+
+# int -> ціле число 12
+# float -> дробове число 12.5
+# bool -> логічний тип данних : True False
+# str -> рядок -> масив (набір) символів
