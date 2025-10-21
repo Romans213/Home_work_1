@@ -179,7 +179,7 @@ hundreds = number // 100 % 10
 print(hundreds)
 tens = number // 10 % 10
 print(tens)
-untis = number // 1 % 1
+untis = number // 1 % 10
 print(untis)
 
 result = (thousand + hundreds + tens + untis)
