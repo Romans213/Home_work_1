@@ -185,3 +185,76 @@ print(untis)
 result = (thousand + hundreds + tens + untis)
 print("Result:",result)
 # Попытка №3 удалась я получил в результате по столбцу 8  7  5  0  Result: 20
+
+#input ("Enter a number: ")
+#number = int(input("Enter a number: "))
+
+#n1 = number // 100
+#n2 = number // 10 % 10
+
+# n2 = number % 100 // 10
+#n3 = number % 10
+
+#print(n1)
+#print(n2)
+#print(n3)
+
+#result = n1 + n2 + n3
+#print("Result:", result)
+
+
+07.11
+#name = input("Enter your name: ")
+#age = int(input("Enter your age: "))
+
+#print("Hello,", name, "You are", age, "years old!")
+
+#V2
+#print("Hello, " + name + " You are " + str(age) + " years old!")
+#конкатинація- тільки коли str, а в інших випадках не буде використовуватися.
+#конкатинація це складання рядків, рядок + рядок це один великий рядок.
+
+#v3
+#print(f"Hello, {name}. You are {age} years old!")
+#інтерполяція рядка вбудування змінних у рядок завдяки функції format(f)
+
+#age_after_ten_years = age + 10
+#print(age_after_ten_years)
+
+# input ("Enter a number: ")
+# number = int(input("Enter a number: "))
+#
+# n0 = number // 1000
+# n1 = number // 100 % 10
+# n2 = number // 10 % 10
+#
+# n2 = number % 100 // 10
+# n3 = number % 10
+#
+# print(n0)
+# print(n1)
+# print(n2)
+# print(n3)
+#
+# result = n0 + n1 + n2 + n3
+# print("Result:", result)
+
+# Д/з
+
+number = int(input('Enter a number: '))  # 54321
+#
+n1 = number // 10000 % 10
+n2 = number // 1000 % 10
+n3 = number // 100 % 10
+n4 = number // 10 % 10
+n5 = number % 10
+#
+result = n5 * 10000 + n4 * 1000 + n3 * 100 + n2 * 10 + n1
+print(result)
+
+# n1 = number // 10000 % 1000  # = 54321 // 10000 % 1000 = 5 % 1000 = 5
+# n2 = number // 1000 % 100    # = 54321 // 1000 % 100 = 54 % 100 = 54  (должно быть 4)
+# n3 = number // 100 % 10      # = 54321 // 100 % 10 = 543 % 10 = 3
+# n4 = number // 10 % 10       # = 54321 // 10 % 10 = 5432 % 10 = 2
+# n5 = number % 10             # = 54321 % 10 = 1
+# объяснение почему не выводило инверсию чисел.
