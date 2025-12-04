@@ -258,3 +258,52 @@ print(result)
 # n4 = number // 10 % 10       # = 54321 // 10 % 10 = 5432 % 10 = 2
 # n5 = number % 10             # = 54321 % 10 = 1
 # объяснение почему не выводило инверсию чисел.
+
+# n1 = 10
+# n2 = 20
+# n1,n2 = 10,20
+#
+# print(n1 > n2)
+# print(n1 >= n2)
+# print(n1 <= n2)
+# print(n1 < n2)
+# print(n1 == n2)
+#
+# print(n1 != n2)
+#
+# print(1 == 1 and 3 == 3)
+# print(1 == 1 or 2 == 3)
+#
+# is_valid = False
+# print(is_valid)
+# print(not is_valid)
+#
+# print("hello" in "hello world")
+
+# hours = int(input("Enter hours: "))
+# # v1
+# if hours >= 12:
+#     print("PM")
+# else:
+#     print("AM")
+
+# hours = int(input("Enter hours: "))
+# # v2
+# if 12 <= hours <24:
+#     print("PM")
+# elif 0 <= hours <12:
+#     print("AM")
+# else:
+#     print("Incorrect hours")
+
+# hours >= 12 and hours < 24
+
+# ввести рейтинг фільму: якщо рейтинг дорівнює 5 або 4 - ок, інакше - погано
+
+rating = int(input("Введите рейтинг фильма (от 1 до 5): "))
+
+if rating == 5 or rating == 4:
+    print("Рейтинг хороший - можно смотреть!")
+else:
+    print("Плохой рейтинг - не стоит внимания.")
+
